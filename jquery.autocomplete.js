@@ -602,7 +602,7 @@
 		
 		var $box = $('<div class="xdsoft_autocomplete"></div>'),
 			$dropdown = $('<div class="xdsoft_autocomplete_dropdown"></div>'),
-			$hint = $('<input readonly class="xdsoft_autocomplete_hint"/>'),
+			$hint = $('<input readonly tabindex="-1" class="xdsoft_autocomplete_hint"/>'),
 			$input = $(that),
 			timer1 = 0,
 			dataset = [],
